@@ -5,3 +5,6 @@ src/dlg/dlg.c
 subprojects/*
 !subprojects/*.wrap
 /tests/data/*
+*.filters
+*.vcxproj
+*.db
