@@ -42,12 +42,17 @@ createbaseprojectcpp("FreeType", "StaticLib")
 	    "src/type1/type1.c",
 	    "src/type42/type42.c",
 	    "src/winfonts/winfnt.c",
+		"builds/windows/ftdebug.c",
+		"builds/windows/ftsystem.c",
+		"src/base/ftver.rc",
 	}
 	
     includedirs
     {
         "include",
     }
+	
+	characterset ("ASCII")
 	
 	defines
 	{
